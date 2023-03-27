@@ -57,7 +57,7 @@ def resume():
     pygame   
     mixer.init()
     mixer.music.load('shared_files/'+song_selected)
-    mixer.music.stop()   
+    mixer.music.play()   
 
 
 def musicWindow():
